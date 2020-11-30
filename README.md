@@ -2,6 +2,7 @@
 
 ## Features
 - [x] Bubble Sort
+- [x] Insertion Sort
 
 ## 概述
 
