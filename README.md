@@ -3,6 +3,8 @@
 ## Features
 - [x] Bubble Sort
 - [x] Insertion Sort
+- [x] Selection Sort
+- [ ] Shell Sort
 
 ## 概述
 
