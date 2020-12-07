@@ -4,7 +4,7 @@
 - [x] Bubble Sort
 - [x] Insertion Sort
 - [x] Selection Sort
-- [ ] Shell Sort
+- [x] Shell Sort
 
 ## 概述
 
