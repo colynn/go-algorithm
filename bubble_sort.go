@@ -2,6 +2,7 @@ package algorithm
 
 // BubbleSort ..
 // No.1
+// 冒泡排序 （稳定）
 func BubbleSort(arr []int) []int {
 	len := len(arr)
 	for i := 0; i < len-1; i++ {
