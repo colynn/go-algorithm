@@ -1,7 +1,5 @@
 package algorithm
 
-import "fmt"
-
 // InsertionSort ..
 // No.3
 // 插入排序（稳定）算法步骤：
@@ -13,12 +11,12 @@ func InsertionSort(arr []int) []int {
 	for i := range arr {
 		preIndex := i - 1
 		current := arr[i]
-		fmt.Printf("current: %v\n", current)
+		// fmt.Printf("current: %v\n", current)
 		for preIndex >= 0 && arr[preIndex] > current {
 			arr[preIndex+1] = arr[preIndex]
 			preIndex--
 		}
-		fmt.Printf("finally i: %v, current: %v, preIndex: %v\n", i, current, preIndex)
+		// fmt.Printf("finally i: %v, current: %v, preIndex: %v\n", i, current, preIndex)
 		arr[preIndex+1] = current
 	}
 	return arr
